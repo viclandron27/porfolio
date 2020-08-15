@@ -59,8 +59,11 @@ section {
 }
 
 .hero div {
+    width: 35%;
     background-color: pink;
     padding: 20px;
+    margin-top: auto;
+    margin-left: auto;
 }
 
 .section-title {
@@ -85,7 +88,6 @@ section {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 
 .section-title h2 {
     font-size: 55px;
