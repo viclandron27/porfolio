@@ -69,16 +69,21 @@ section {
     border-left: 3px solid black;
 }
 
+.content.contact-list {
+    border-left: 3px solid black;
+}
+
 /* About Me */
 .about-me {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
 .section-title h2 {
     font-size: 55px;
+    padding-left: 80px;
 }
 
 .bio {
@@ -90,7 +95,7 @@ section {
 .work {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .work-grid-wrapper {
@@ -143,7 +148,7 @@ section {
 .contact-me {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
 }
