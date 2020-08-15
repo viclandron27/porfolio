@@ -9,6 +9,7 @@ header {
     background-color: black;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -22,7 +23,7 @@ header a {
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 7px 10px;
 }
 
 header nav ul {
@@ -33,12 +34,13 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul a {
-    border-bottom: 3px solid white;
-}
-
 header nav ul li a {
     padding: 10px 15px;
+}
+
+header li a{
+    font-size: 25px;
+    border-bottom: 3px solid white;
 }
 
 section {
@@ -148,7 +150,8 @@ section {
 }
 
 .work-grid-item.run {
- 
+    background-image: url(../images/run\ buddy.png);
+    background-size: contain;
 }
 
 .text h3 {
@@ -160,6 +163,7 @@ section {
 
 .work-grid-item:hover{
     background-color: lightcyan;
+    z-index: 1;
 }
 /* Work END */
 
@@ -185,7 +189,7 @@ section {
 .contact-list ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
 }
