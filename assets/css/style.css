@@ -44,17 +44,23 @@ header nav ul li a {
 section {
     padding: 30px;
 }
-
+/* Hero */
 .hero {
     background-image: url(../images/header.jpeg);
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     /* background-attachment: fixed; */
     position: 80%;
     background-size: 1300px; 
     height: 500px;
     width: 100%;
+}
+
+.hero div {
+    background-color: pink;
+    padding: 20px;
 }
 
 .section-title {
