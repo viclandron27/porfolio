@@ -119,12 +119,13 @@ section {
 
 .work-grid-item {
     padding: 15px 0;
-    border: 2px solid pink;
+    border: 3px solid pink;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
 
 .work-grid-item.surf {
     grid-column: 1 / span 6;
@@ -142,11 +143,15 @@ section {
 }
 
 .work-grid-item.run {
-    background-image: url(../images/run\ buddy.png);
+ 
 }
 
 .text h4 {
     font-size: 13px;
+}
+
+.work-grid-item:hover{
+    background-color: lightcyan;
 }
 /* Work END */
 
