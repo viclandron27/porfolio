@@ -86,6 +86,44 @@ section {
 }
 /* About Me END */
 
+/* Work */
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-grid-wrapper {
+    width: 70%;
+}
+
+.work-grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+.work-grid-item {
+    padding: 15px 0;
+    border: 2px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.work-grid-item.surf {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 4;
+}
+
+.work-grid-item.basic {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+/* Work END */
+
 /* Contact Me */
 .contact-me {
     display: flex;
