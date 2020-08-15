@@ -95,9 +95,11 @@ section {
 
 .work-grid-wrapper {
     width: 70%;
+    height: 500px;
 }
 
 .work-grid-container {
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -126,6 +128,10 @@ section {
 .work-grid-item div {
     background-color: pink;
     padding: 5px;
+}
+
+.work-grid-item.run {
+    background-image: url(../images/run\ buddy.png);
 }
 
 .text h4 {
