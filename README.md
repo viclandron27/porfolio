@@ -10,7 +10,7 @@ This portfolio showcases Victoria's professional work, experience and ways to co
 ## Website
 https://viclandron27.github.io/porfolio/
 
-![Website Screenshot](/images/screenshot.png)
+![](assets/images/screenshot.png)
 
 ## Contribution
 Made by Victoria Landron
