@@ -292,15 +292,49 @@ background-image: url(../images/run\ buddy.png);
 
     header nav ul li a {
         font-size: 20px;
-}
+    }
 
+    .hero div {
+        max-height: 200px;
+        max-width: 400px;
+    }
+}
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 769px) {
-    
+    .hero div {
+        max-height: 350px;
+        width: 100%;
+    }
+
+    .section-title {
+        flex: 1 100%;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .section-title h2 {
+        padding-left: 10px;
+    }
+
+    .content {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+        border-left: none;
+        border-top: 3px solid black;
+    }
 }
 
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-   
+    .hero div {
+        max-height: 450px;
+        width: 100%;
+    }
+
+    .section-title {
+       font-size: smaller;
+   }
 }
