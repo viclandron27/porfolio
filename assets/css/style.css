@@ -298,6 +298,30 @@ background-image: url(../images/run\ buddy.png);
         max-height: 200px;
         max-width: 400px;
     }
+
+    .section-title {
+        flex: 1 100%;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .section-title h2 {
+        padding-left: 10px;
+    }
+
+    .content {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+        border-left: none;
+        border-top: 3px solid black;
+    }
+
+    .content.contact-list {
+        border-left: none;
+        padding-top: 40px;
+    }
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 769px) {
@@ -324,6 +348,11 @@ background-image: url(../images/run\ buddy.png);
         border-left: none;
         border-top: 3px solid black;
     }
+
+    .content.contact-list {
+        border-left: none;
+        padding-top: 40px;
+    }
 }
 
 
@@ -337,4 +366,15 @@ background-image: url(../images/run\ buddy.png);
     .section-title {
        font-size: smaller;
    }
+
+   .content.contact-list {
+    position: relative;
+    justify-content: space-between;
+    border-left: none;
+    padding-top: 40px;
+    width: 100%;
+}
+    .contact-list ul li a {
+        font-size: 15px;
+    }
 }
