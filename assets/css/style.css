@@ -181,6 +181,14 @@ background-image: url(../images/run\ buddy.png);
     display: block;
 }
 
+.movie {
+    background-image: url(../images/movie.png);
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 .work-grid-item a {
     display: block;
     z-index: 0;
