@@ -181,6 +181,14 @@ background-image: url(../images/run\ buddy.png);
     display: block;
 }
 
+.lunar {
+    background-image: url(../images/lunar_doctor.png);
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .movie {
     background-image: url(../images/movie.png);
     background-size: contain;
